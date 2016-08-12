@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <title>Joey's Profile </title>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://media.giphy.com/media/2FazmuUIxdWb4cRji/giphy.gif');
+
+      
+      color: pink;
+    }
+    a {
+      color: pink ;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article{ padding: 20px; 
+    max-width: 500px; 
+    margin: 0 auto; 
+    }
+    @media (max-width: 500px) {
+      h1 { 
+        font-size: 36px;
+      }
+      li { 
+        display: block;
+        padding: 5px;
+      }
+      body{
+        background:pink;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <img src="C:\Users\Joel Cabrera\Downloads\dude1.jpg">
+    <h1 id = middle>Joey's profile</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#middle"> My goals </a></li>
+      <li><a href="#accomplishments"> Accomplishments </a></li>
+    </ul>
+  </header>
+  <article>
+  <h2 id> About me</h2>
+  <p> I'm just a dominican skater in NYC. 17 years old dude , young and free, I am living in a city of bliss. </p>
+  <button>Like</button>
+  </article>
+  <article>
+  <h2> My goals </h2>
+  <p> I want to double major in College with business and computer science, but, in the long term I want to create my own startup company revolving around computer science. I want to create successful apps and websites. Stuff that will never stop people from being in awe. </p>
+  <button>Like</button>
+  </article>
+  <article>
+  <h2 id="accomplishments"> Accomplishments  </h2>
+  <p> Honors and Ap Student, I'm in national honors society. I know html, css, javascript, some JQuery and some Python. I am a pretty good skater. I'm also a member of <a href = "http://www.allstarcode.org">All Star Code</a>,<a href = "http://www.seoscholars.org/"> SEO</a>,and  <a href = "https://www.scripted.org/">Scripted.</a> </p>
+  <button>Like</button>
+  </article>
+  <script> alert("Javascript works!") $("button").on("click", function() {alert("clicked!")});</script>
+</body>
